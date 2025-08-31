@@ -1,0 +1,43 @@
+---
+import Main from '../layouts/MainLayout.astro';
+
+const images = [
+  "/image/gallery/sakura_fran.jpg",
+  "/image/gallery/sakura_medicine.jpg",
+  "/image/gallery/sakura_meri.jpg",
+  "/image/gallery/sakura_okina.jpg",
+  "/image/gallery/sakura_renmeri.jpg",
+  "/image/gallery/sakura_sakuya.jpg",
+  "/image/gallery/sakura_yukari.jpg",
+  "/image/gallery/sakura_yukari2.jpg",
+  "/image/gallery/sakura_yukari3.jpg",
+  "/image/gallery/rein_crownpiece.jpg",
+  "/image/gallery/rein_eiki.jpg",
+  "/image/gallery/rein_fran.jpg",
+  "/image/gallery/rein_itirin.jpg",
+  "/image/gallery/rein_misumaru.jpg",
+  "/image/gallery/rein_nareko.jpg",
+  "/image/gallery/rein_sagume.jpg",
+  "/image/gallery/rein_saki.jpg",
+  "/image/gallery/rein_sakuya.jpg",
+  "/image/gallery/rein_sonbiten.jpg",
+  "/image/gallery/rein_udon.jpg",
+  "/image/gallery/rein_utsuho.jpg",
+  "/image/gallery/rein_yatie.jpg",
+  "/image/gallery/rein_yuma.jpg",
+];
+---
+
+<Main>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
+    {images.map((img, i) => (
+      <img
+        key={i}
+        src={img}
+        alt={`gallery-${i}`}
+        loading="lazy"
+        class="rounded shadow"
+      />
+    ))}
+  </div>
+</Main>

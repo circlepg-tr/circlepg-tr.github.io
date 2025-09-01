@@ -8,7 +8,7 @@ export const en: Translation = {
 
   [key.nav_bar_home]: "News",
   [key.nav_bar_archive]: "Archive",
-  [key.nav_bar_about]: "About",
+  [key.nav_bar_contact]: "Contact",
   [key.nav_bar_gallery]: "Gallery",
   [key.nav_bar_search_placeholder]: "Search",
 
@@ -23,8 +23,17 @@ export const en: Translation = {
 
   [key.pages_categories_archive]: "Article Archive",
   [key.pages_tags_archive]: "Tag Archive",
-  [key.pages_archive_archive]: "Archive",
+  [key.pages_archive_archive]: "陶酔ロマン",
+  [key.pages_archive_subtitle]: "活動記録はこちら",
+
+  [key.pages_home_home]: "陶酔ロマン",
+  [key.pages_home_subtitle]: "東方同人サークル『陶酔ロマン』<br>オフィシャルサイト",
 
   [key.pages_tags_title]: "Tags",
   [key.pages_categories_title]: "Categories",
+  
+  [key.pages_contact_contact]: "陶酔ロマン",
+  [key.pages_contact_subtitle]: "ご連絡はこちら",
+  [key.pages_gallery_gallery]: "陶酔ロマン",
+  [key.pages_gallery_subtitle]: "作品はこちら<br>随時更新予定",
 };

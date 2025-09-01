@@ -8,7 +8,7 @@ const YukinaConfig: Configuration = {
 
   description: "Demo Site",
 
-  site: "https://tosui-roman.github.io///",
+  site: "https://circlepg-tr.github.io///",
 
   locale: "en",
 
@@ -26,13 +26,13 @@ const YukinaConfig: Configuration = {
       href: "/archive",
     },
     {
-      nameKey: I18nKeys.nav_bar_about,
-      href: "/about",
+      nameKey: I18nKeys.nav_bar_contact,
+      href: "/contact",
     },
   ],
 
   username1: "八雲 櫻",
-  sign1: "サークル代表",
+  sign1: "",
   avatarImg1: "/image/gallery/sakura_meri.jpg",
   socialLinks1: [
     {
@@ -46,7 +46,7 @@ const YukinaConfig: Configuration = {
   ],
 
   username2: "りーん10",
-  sign2: "サイト管理者",
+  sign2: "",
   avatarImg2: "/image/gallery/rein_yuma.jpg",
   socialLinks2: [
     {

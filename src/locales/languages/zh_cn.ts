@@ -8,8 +8,8 @@ export const zh_CN: Translation = {
 
   [key.nav_bar_home]: "首页",
   [key.nav_bar_archive]: "归档",
-  [key.nav_bar_about]: "关于",
-  [key.nav_bar_github]: "GitHub",
+  [key.nav_bar_contact]: "联系",
+  [key.nav_bar_gallery]: "画廊",
   [key.nav_bar_search_placeholder]: "搜索",
 
   [key.post_card_words]: "字",
@@ -23,8 +23,17 @@ export const zh_CN: Translation = {
 
   [key.pages_categories_archive]: "文章归档",
   [key.pages_tags_archive]: "标签归档",
-  [key.pages_archive_archive]: "归档",
+  [key.pages_archive_archive]: "陶酔ロマン",
+  [key.pages_archive_subtitle]: "按日期排列的所有文章",
+
+  [key.pages_home_home]: "陶酔ロマン",
+  [key.pages_home_subtitle]: "東方同人サークル『陶酔ロマン』<br>オフィシャルサイト",
 
   [key.pages_tags_title]: "标签",
   [key.pages_categories_title]: "分类",
+  
+  [key.pages_contact_contact]: "陶酔ロマン",
+  [key.pages_contact_subtitle]: "与我们联系",
+  [key.pages_gallery_gallery]: "陶酔ロマン",
+  [key.pages_gallery_subtitle]: "我们的作品集",
 };

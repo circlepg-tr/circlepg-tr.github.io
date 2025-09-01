@@ -36,7 +36,7 @@ if (props.image) {
 >
   <a href={contentUrl} class="relative h-[128px] transition-all hover:brightness-75 lg:hidden">
     <img
-      class="lozad h-[212px] w-[404px] select-none rounded-r-3xl object-cover dark:brightness-90"
+      class="lozad h-[128px] w-full select-none rounded-t-3xl object-cover dark:brightness-90 lg:h-[212px] lg:w-[404px] lg:rounded-r-3xl lg:rounded-t-none"
       data-src={coverImage}
       alt="PostCover"
     />
@@ -63,7 +63,7 @@ if (props.image) {
       </div>
     </div>
   </a>
-  <div class="flex h-[128px] flex-row lg:h-[212px]">
+  <div class="flex min-h-[128px] flex-col lg:flex-row lg:h-[212px]">
     <div
       class="flex w-full flex-col justify-between pb-5 pl-5 pr-6 pt-3 lg:w-[calc(var(--page-width-lg)-404px)] lg:py-7 lg:pr-0 xl:w-[calc(var(--page-width-xl)-676px)]"
     >
@@ -200,7 +200,7 @@ if (props.image) {
   }
 
   .cover-container {
-    @apply relative ml-2 hidden h-[212px] min-w-[404px] max-w-[404px] select-none lg:block;
+    @apply relative ml-2 hidden h-[212px] min-w-[200px] max-w-[200px] select-none lg:min-w-[404px] lg:max-w-[404px] lg:block;
     clip-path: polygon(0 0%, 100% 0%, 100% 100%, 10% 100%);
   }
 

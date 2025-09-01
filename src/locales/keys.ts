@@ -5,7 +5,7 @@ enum I18nKeys {
 
   nav_bar_home = "nav_bar_home",
   nav_bar_archive = "nav_bar_archive",
-  nav_bar_about = "nav_bar_about",
+  nav_bar_contact = "nav_bar_contact",
   nav_bar_gallery = "nav_bar_gallery",
   nav_bar_search_placeholder = "nav_bar_search_placeholder",
 
@@ -20,10 +20,18 @@ enum I18nKeys {
 
   pages_categories_archive = "pages_categories_archive",
   pages_archive_archive = "pages_archive_archive",
+  pages_archive_subtitle = "pages_archive_subtitle",
   pages_tags_archive = "pages_tags_archive",
 
   pages_tags_title = "pages_tags_title",
   pages_categories_title = "pages_categories_title",
+  
+  pages_home_home = "pages_home_home",
+  pages_home_subtitle = "pages_home_subtitle",
+  pages_contact_contact = "pages_contact_contact",
+  pages_contact_subtitle = "pages_contact_subtitle",
+  pages_gallery_gallery = "pages_gallery_gallery",
+  pages_gallery_subtitle = "pages_gallery_subtitle",
 }
 
 export default I18nKeys;

@@ -1,5 +1,7 @@
 ---
 import Main from '../layouts/MainLayout.astro';
+import I18nKeys from "../locales/keys";
+import { i18n } from "../locales/translation";
 
 const images = [
   "/image/gallery/sakura_fran.jpg",
@@ -28,7 +30,7 @@ const images = [
 ];
 ---
 
-<Main>
+<Main title={i18n(I18nKeys.pages_gallery_gallery)} subTitle={i18n(I18nKeys.pages_gallery_subtitle)}>
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
     {images.map((img, i) => (
       <img

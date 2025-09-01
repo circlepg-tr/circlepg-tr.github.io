@@ -3,19 +3,15 @@ import { getEntry, render } from "astro:content";
 import Main from "../layouts/MainLayout.astro";
 import Markdown from "../components/Markdown.astro";
 import CopyRight from "../components/misc/CopyRight.astro";
+import I18nKeys from "../locales/keys";
+import { i18n } from "../locales/translation";
 
-const aboutPost = await getEntry("specs", "about");
-const { Content } = await render(aboutPost!);
-interface Props {
-  title?: string;
-  subTitle?: string;
-  bannerImage?: string;
-  published?: Date;
-}
-const { title, subTitle, bannerImage, published } = Astro.props;
+const contactPost = await getEntry("specs", "contact");
+const { Content } = await render(contactPost!);
+const { published } = Astro.props;
 ---
 
-<Main title={title} subTitle={subTitle} bannerImage={bannerImage}>
+<Main title={i18n(I18nKeys.pages_contact_contact)} subTitle={i18n(I18nKeys.pages_contact_subtitle)}>
   <!-- <Fragment set:html={tocHTMLString} /> -->
   <div class="article-wrapper">
     <div class="article">

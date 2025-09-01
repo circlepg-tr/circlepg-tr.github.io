@@ -6,6 +6,8 @@ import Pagination from "../components/controllers/Pagination.astro";
 // Utils
 import type { PaginateFunction } from "astro";
 import { GetSortedPosts } from "../utils/content";
+import I18nKeys from "../locales/keys";
+import { i18n } from "../locales/translation";
 
 export async function getStaticPaths({
   paginate,
@@ -18,7 +20,7 @@ export async function getStaticPaths({
 const { page } = Astro.props;
 ---
 
-<Main>
+<Main title={i18n(I18nKeys.pages_home_home)} subTitle={i18n(I18nKeys.pages_home_subtitle)}>
   <div class="space-y-8">
     <div class="w-full space-y-4">
       {

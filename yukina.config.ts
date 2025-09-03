@@ -45,7 +45,7 @@ const YukinaConfig: Configuration = {
     },
   ],
 
-  username2: "りーん10",
+  username2: "すためりあ",
   sign2: "",
   avatarImg2: "/image/gallery/rein_yuma.jpg",
   socialLinks2: [

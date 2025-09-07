@@ -25,14 +25,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={YukinaConfig.title} />
 <meta property="og:description" content={YukinaConfig.description} />
-<!-- <meta property="og:image" content={new URL(image, Astro.url)} /> -->
+<meta property="og:image" content={new URL("/og-image.png", Astro.url)} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
 <meta property="twitter:title" content={YukinaConfig.title} />
 <meta property="twitter:description" content={YukinaConfig.description} />
-<!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->
+<meta property="twitter:image" content={new URL("/og-image.png", Astro.url)} />
+<meta property="twitter:image:alt" content={YukinaConfig.title} />
 
 <!-- RSS AutoDiscovery -->
 <link

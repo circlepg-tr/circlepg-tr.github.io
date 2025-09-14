@@ -6,7 +6,7 @@ const YukinaConfig: Configuration = {
   subTitle: "同人サークル『陶酔ロマン』オフィシャルサイト",
   brandTitle: "Home",
 
-  description: "Demo Site",
+  description: "",
 
   site: "https://circlepg-tr.github.io///",
 

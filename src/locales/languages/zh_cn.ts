@@ -8,7 +8,7 @@ export const zh_CN: Translation = {
 
   [key.nav_bar_home]: "首页",
   [key.nav_bar_archive]: "归档",
-  [key.nav_bar_contact]: "联系",
+  [key.nav_bar_about]: "关于",
   [key.nav_bar_gallery]: "画廊",
   [key.nav_bar_search_placeholder]: "搜索",
 
@@ -32,8 +32,8 @@ export const zh_CN: Translation = {
   [key.pages_tags_title]: "标签",
   [key.pages_categories_title]: "分类",
   
-  [key.pages_contact_contact]: "陶酔ロマン",
-  [key.pages_contact_subtitle]: "与我们联系",
+  [key.pages_about_about]: "陶酔ロマン",
+  [key.pages_about_subtitle]: "关于我们",
   [key.pages_gallery_gallery]: "陶酔ロマン",
   [key.pages_gallery_subtitle]: "我们的作品集",
 };

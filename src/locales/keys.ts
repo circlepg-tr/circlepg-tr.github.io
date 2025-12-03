@@ -5,7 +5,7 @@ enum I18nKeys {
 
   nav_bar_home = "nav_bar_home",
   nav_bar_archive = "nav_bar_archive",
-  nav_bar_contact = "nav_bar_contact",
+  nav_bar_about = "nav_bar_about",
   nav_bar_gallery = "nav_bar_gallery",
   nav_bar_search_placeholder = "nav_bar_search_placeholder",
 
@@ -28,8 +28,8 @@ enum I18nKeys {
   
   pages_home_home = "pages_home_home",
   pages_home_subtitle = "pages_home_subtitle",
-  pages_contact_contact = "pages_contact_contact",
-  pages_contact_subtitle = "pages_contact_subtitle",
+  pages_about_about = "pages_about_about",
+  pages_about_subtitle = "pages_about_subtitle",
   pages_gallery_gallery = "pages_gallery_gallery",
   pages_gallery_subtitle = "pages_gallery_subtitle",
 }

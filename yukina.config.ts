@@ -15,7 +15,7 @@ const YukinaConfig: Configuration = {
   navigators: [
     {
       nameKey: I18nKeys.nav_bar_home,
-      href: "/",
+      href: "/news",
     },
     {
       nameKey: I18nKeys.nav_bar_gallery,
@@ -26,8 +26,8 @@ const YukinaConfig: Configuration = {
       href: "/archive",
     },
     {
-      nameKey: I18nKeys.nav_bar_contact,
-      href: "/contact",
+      nameKey: I18nKeys.nav_bar_about,
+      href: "/",
     },
   ],
 
@@ -36,12 +36,16 @@ const YukinaConfig: Configuration = {
   avatarImg1: "/image/gallery/sakura_meri.jpg",
   socialLinks1: [
     {
-      icon: "fa6-brands:x-twitter",
+      icon: "local:x",
       link: "https://x.com/yakumoougama?s=21&t=HgKqcnVyxch9ihDE10UdoA",
     },
     {
-      icon: "simple-icons:pixiv",
+      icon: "local:pixiv",
       link: "https://www.pixiv.net/users/104579569",
+    },
+    {
+      icon: "local:booth",
+      link: "https://sakura-yakumo.booth.pm/",
     },
   ],
 
@@ -50,11 +54,11 @@ const YukinaConfig: Configuration = {
   avatarImg2: "/image/gallery/rein_yuma.jpg",
   socialLinks2: [
     {
-      icon: "fa6-brands:x-twitter",
+      icon: "local:x",
       link: "https://x.com/rein_13424?s=21&t=HgKqcnVyxch9ihDE10UdoA",
     },
     {
-      icon: "simple-icons:pixiv",
+      icon: "local:pixiv",
       link: "https://www.pixiv.net/users/111882781",
     },
   ],

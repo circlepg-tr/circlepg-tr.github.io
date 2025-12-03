@@ -24,6 +24,7 @@ export default defineConfig({
     svelte(),
     icons({
       collections: {
+        local: './src/icons',
         fa6brands: async () => (await import('@iconify-json/fa6-brands')).default,
         simpleicons: async () => (await import('@iconify-json/simple-icons')).default,
       },

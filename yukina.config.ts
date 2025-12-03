@@ -45,7 +45,7 @@ const YukinaConfig: Configuration = {
     },
     {
       icon: "local:booth",
-      link: "https://sakura-yakumo.booth.pm/",
+      link: "https://yakumo890sakura.booth.pm",
     },
   ],
 

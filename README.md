@@ -1,3 +1,26 @@
+# 🚀 クイックスタート
+
+## 📦 セットアップと実行
+
+```bash
+pnpm install
+pnpm build
+pnpm dev
+pnpm preview
+```
+
+## 🚢 GitHub Pagesへのデプロイ
+
+```bash
+pnpm build
+touch dist/.nojekyll
+npx gh-pages -d dist --dotfiles
+```
+
+---
+
+※ 以下原文
+
 # Yukina
 
 Simple and Elegant Astro Blog Template
